@@ -1,0 +1,74 @@
+syntax = "proto3";
+
+// Specifies that the generated Java code will have multiple files.
+// Sets the package name for the generated Java classes.
+// Defines the outer class name for the generated Java code.
+option java_multiple_files= true;
+option java_package = "com.session";
+option java_outer_classname = "StudentProto";
+
+
+
+
+// Service definition for managing students.
+service StudentService {
+  // Creates a new student.
+  rpc createStudent(StudentRequest) returns (StudentResponse);
+
+  // Retrieves a student by their ID.
+  rpc getStudentById(StudentIdRequest) returns (StudentResponse);
+
+  // Retrieves all students.
+  rpc getAllStudents(Empty) returns (StudentList);
+
+  // Deletes a student by their ID.
+  rpc deleteStudentById(StudentIdRequest) returns (DeleteStudentResponse);
+
+  // Updates a student by their ID.
+  rpc updateStudentById(StudentRequest) returns (StudentResponse);
+}
+
+// Response message for deleteStudentById RPC.
+message DeleteStudentResponse {
+  // Message indicating the result of the delete operation.
+  string message = 1;
+}
+
+// List of students.
+message StudentList {
+  // A list of student responses.
+  repeated StudentResponse students = 1; // repeated field means List
+}
+
+// Empty message for requests that do not require parameters.
+message Empty {}
+
+// Request message for retrieving or deleting a student by ID.
+message StudentIdRequest {
+  // The ID of the student.
+  int64 id = 1;
+}
+
+// Request message for creating or updating a student.
+message StudentRequest {
+  // The ID of the student (used for updates).
+  int64 id = 1;
+
+  // The name of the student.
+  string name = 2;
+
+  // The email of the student.
+  string email = 3;
+}
+
+// Response message for student-related operations.
+message StudentResponse {
+  // The ID of the student.
+  int64 id = 1;
+
+  // The name of the student.
+  string name = 2;
+
+  // The email of the student.
+  string email = 3;
+}
