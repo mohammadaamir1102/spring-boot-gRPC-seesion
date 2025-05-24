@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+// Define the package name for the generated code
+package com.aamir;
+
+// Options for Java code generation
+option java_multiple_files = true;
+
+// Specify the Java package and outer class name for the generated code
+option java_package="com.aamir";
+
+// Specify the outer class name for the generated code
+option  java_outer_classname="StockTradingProto";
+
+// Define the StockTradingService with a unary RPC method
+service StockTradingService {
+    rpc getStockPrice (StockRequest) returns (StockResponse);
+}
+
+// Define the request message for getting stock price
+message StockRequest {
+    string stock_symbol = 1;
+}
+
+// Define the response message for stock price
+message StockResponse {
+    string stock_symbol = 1;
+    double price = 2;
+    string timestamp = 3;
+}

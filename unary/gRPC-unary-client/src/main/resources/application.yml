@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gRPC-unary-client
+
+grpc: # gRPC client configuration
+  client:
+    stock-trading-service: # Name of the gRPC service client
+      address: "static://localhost:9090" # Address of the gRPC server
+      negotiation-type: PLAINTEXT # Use plaintext (no SSL/TLS) for communication

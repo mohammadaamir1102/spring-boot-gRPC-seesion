@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gRPC-unary-client/gRPC-unary-client.iml" filepath="$PROJECT_DIR$/gRPC-unary-client/gRPC-unary-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gRPC-unary-server/gRPC-unary-server.iml" filepath="$PROJECT_DIR$/gRPC-unary-server/gRPC-unary-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/unary.iml" filepath="$PROJECT_DIR$/.idea/unary.iml" />
+    </modules>
+  </component>
+</project>

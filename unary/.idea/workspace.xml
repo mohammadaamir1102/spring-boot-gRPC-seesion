@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b58dc735-aa61-471c-bd2a-1c4b00dda08d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-client/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-client/src/main/java/com/aamir/GRpcUnaryClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-client/src/main/java/com/aamir/service/StockServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-client/src/main/proto/stock_trading.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-client/src/test/java/com/aamir/GRpcUnaryClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/src/main/java/com/aamir/GRpcUnaryServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/src/main/java/com/aamir/entity/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/src/main/java/com/aamir/repo/StockRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/src/main/java/com/aamir/service/StockTradingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/src/main/proto/stock_trading.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC-unary-server/src/test/java/com/aamir/GRpcUnaryServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gRPC-crud/target/classes/com/session/exception/GrpcExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gRPC-crud/target/classes/com/session/exception/GrpcExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gRPC-crud/target/classes/com/session/exception/GrpcStudentNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gRPC-crud/target/classes/com/session/exception/GrpcStudentNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gRPC-crud/target/classes/com/session/service/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gRPC-crud/target/classes/com/session/service/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gRPC-crud/target/classes/student.proto" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mohammadaamir1102"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mohammadaamir1102/spring-boot-gRPC-seesion.git",
+    "accountId": "28847b25-14ab-4b6f-9bf9-5e52d86ede3f"
+  }
+}]]></component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2xUnDBMqzjYSoD67Q4O3AbUZ76v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GRpcUnaryClientApplication.executor": "Run",
+    "Application.GRpcUnaryServerApplication.executor": "Run",
+    "Maven.gRPC-unary-client [clean,install].executor": "Run",
+    "Maven.gRPC-unary-server [clean,install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/projects/gRPC Session/unary/gRPC-unary-client/src/main/proto"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\gRPC Session\unary\gRPC-unary-client\src\main\proto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GRpcUnaryClientApplication">
+    <configuration name="GRpcUnaryClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aamir.GRpcUnaryClientApplication" />
+      <module name="gRPC-unary-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aamir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GRpcUnaryServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aamir.GRpcUnaryServerApplication" />
+      <module name="gRPC-unary-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aamir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GRpcUnaryClientApplication" />
+        <item itemvalue="Application.GRpcUnaryServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b58dc735-aa61-471c-bd2a-1c4b00dda08d" name="Changes" comment="" />
+      <created>1748001397483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748001397483</updated>
+    </task>
+    <servers />
+  </component>
+</project>
